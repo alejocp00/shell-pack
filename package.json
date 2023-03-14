@@ -1,0 +1,26 @@
+{
+  "name": "shell-pack",
+  "displayName": ":Shell pack",
+  "publisher": "AlejoCP00",
+  "icon": "icon.png",
+  "repository": {
+    "url": "https://github.com/alejocp00/shell-pack/"
+  },
+  "bugs": {
+    "url": "https://github.com/alejocp00/shell-pack/issues"
+  },
+  "license": "mit",
+  "description": "A collection of all shell extensions that I'm using",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "truman.autocomplate-shell",
+    "foxundermoon.shell-format",
+    "bbenoist.shell"
+  ]
+}
